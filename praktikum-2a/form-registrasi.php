@@ -26,7 +26,7 @@ require_once "data-form-regis.php";
                 <i class="fa fa-adn"></i>
               </div>
             </div>
-            <input id="nim" name="nim" placeholder="*0110622087" type="text" class="form-control" required="required" pattern="[0-9]{10}" title="NIM harus 10 digit angka">
+            <input id="nim" name="nim" placeholder="Masukan NIM" type="text" class="form-control" required="required" pattern="[0-9]{10}" title="NIM harus 10 digit angka">
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@ require_once "data-form-regis.php";
                 <i class="fa fa-address-book"></i>
               </div>
             </div>
-            <input id="nama_lengkap" name="nama_lengkap" placeholder="*Budi Santoso" type="text" class="form-control" required="required" maxlength="50" minlength="3">
+            <input id="nama_lengkap" name="nama_lengkap" placeholder="Masukan Nama" type="text" class="form-control" required="required" maxlength="50" minlength="3">
           </div>
         </div>
       </div>
@@ -102,7 +102,7 @@ require_once "data-form-regis.php";
                 <i class="fa fa-gg-circle"></i>
               </div>
             </div>
-            <input id="email" name="email" placeholder="*contoh@gmail.com" type="email" class="form-control" required="required">
+            <input id="email" name="email" placeholder="Masukan Email" type="email" class="form-control" required="required">
           </div>
         </div>
       </div>
